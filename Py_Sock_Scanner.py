@@ -9,7 +9,7 @@ subprocess.call('clear', shell=True)
 
 # Ask for input
 # Modified to take explicit input from code for future form input
-remoteServer = "71.59.0.201"
+remoteServer = input("Enter the IP you want to scan: ")
 remoteServerIP = socket.gethostbyname(remoteServer)
 
 # Print a nice banner with information on which host we are about to scan
